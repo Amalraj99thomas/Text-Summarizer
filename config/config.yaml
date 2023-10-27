@@ -27,7 +27,7 @@ data_transformation:
   tokenizer_name: google/pegasus-cnn_dailymail
 
 
-
+#Config to train the model
 
 model_trainer:
   root_dir: artifacts/model_trainer
@@ -36,6 +36,7 @@ model_trainer:
 
 
 
+#generate rouge metrics
 
 model_evaluation:
   root_dir: artifacts/model_evaluation
