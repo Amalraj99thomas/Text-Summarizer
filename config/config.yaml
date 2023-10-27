@@ -1,6 +1,9 @@
 artifacts_root: artifacts
 
 
+
+#To get the data
+
 data_ingestion:
   root_dir: artifacts/data_ingestion
   source_URL: https://github.com/entbappy/Branching-tutorial/raw/master/summarizer-data.zip
@@ -8,6 +11,7 @@ data_ingestion:
   unzip_dir: artifacts/data_ingestion
 
 
+#To check if the data format is correct
 
 data_validation:
   root_dir: artifacts/data_validation
