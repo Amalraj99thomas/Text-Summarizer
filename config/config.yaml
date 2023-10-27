@@ -19,6 +19,7 @@ data_validation:
   ALL_REQUIRED_FILES: ["train", "test", "validation"]
 
 
+#To save the data after transformation
 
 data_transformation:
   root_dir: artifacts/data_transformation
